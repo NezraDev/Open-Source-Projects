@@ -1,3 +1,12 @@
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+
+  --font-family: "League Spartan", sans-serif;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
