@@ -77,11 +77,19 @@ body {
   font-size: 1.1rem;
   text-align: center;
   line-height: 1.4;
+  display: grid;
+  place-items: center;
+}
+
+.social-proof-section {
+  max-width: 1200px;
+  width: 100%;
 }
 
 .feedback-and-rating-section {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 2rem;
 }
 
@@ -96,6 +104,7 @@ body {
 .ratings-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.875rem;
 
   color: var(--very-dark-magenta);
@@ -118,4 +127,33 @@ body {
   background-image: url(images/icon-star.svg);
   background-repeat: space;
   width: 100px;
+}
+
+@media (min-width: 800px) {
+  .feedback-and-rating-section {
+    flex-direction: row;
+  }
+
+  .customer-feedback-section {
+    text-align: start;
+    max-width: 400px;
+  }
+
+  .user-feedback-summary {
+    font-size: 3rem;
+  }
+
+  .rating-item {
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 400px;
+  }
+
+  .report-guru {
+    margin-left: 3rem;
+  }
+
+  .best-tech {
+    margin-left: 6rem;
+  }
 }
