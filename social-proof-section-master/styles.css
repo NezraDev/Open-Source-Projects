@@ -129,6 +129,63 @@ body {
   width: 100px;
 }
 
+.catalog-section
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog
+{
+  display: flex;
+  border-radius: 10px;
+  background-color: var(--very-dark-magenta);
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 10px;
+  margin: 10px;
+}
+
+.profile-picture
+{
+  margin: 20px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.buyer-details
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.buyer-name
+{
+  margin-top: 34px;
+  margin-bottom: 15px;
+}
+
+
+.buyer-name, .buyer-class
+{
+  display: flex;
+  line-height: 0.6rem;
+  margin-left: 10px;
+}
+
+.buyer-review
+{
+  display: flex;
+  text-align: left;
+  flex-direction: left;
+  font-size: 0.980rem;
+  margin-top: 30px;
+  line-height: -2px;
+  
+}
+
+
 @media (min-width: 800px) {
   .feedback-and-rating-section {
     flex-direction: row;
@@ -156,4 +213,5 @@ body {
   .best-tech {
     margin-left: 6rem;
   }
+  
 }
