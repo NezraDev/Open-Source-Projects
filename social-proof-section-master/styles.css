@@ -82,19 +82,27 @@ body {
   flex-direction: column;
   gap: 1.5rem;
   padding: 0 1.5rem;
+  margin-top: 4rem;
 }
 
 @media (min-width: 700px) {
   .proof {
     flex-direction: row;
     justify-content: space-between;
+    text-align: start;
   }
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .testimony {
   color: var(--very-dark-magenta);
   font-weight: var(--bold);
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 0.75;
 }
 
@@ -118,7 +126,8 @@ body {
 }
 
 .stars {
-  width: 17px;
   height: 16px;
   background-image: url(images/icon-star.svg);
+  background-repeat: space;
+  width: 100px;
 }
